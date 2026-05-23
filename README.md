@@ -197,24 +197,6 @@ This app can be deployed for free on Vercel.
 
 Other hosting providers can also work as long as they support Next.js server routes and environment variables.
 
-## Submission Checklist
-
-- The app builds successfully.
-- The hosted page is live and reachable.
-- The Gemini API call works in production.
-- The GitHub repository is public or otherwise accessible to the reviewer.
-- The README includes setup and deployment instructions.
-- The Loom video is recorded and includes:
-  - Introduction.
-  - Live demo of the application.
-  - Code walkthrough.
-  - Provider and model choice.
-  - Prompt explanation.
-  - What would be improved with more time.
-  - Building philosophy.
-  - Collaboration approach.
-  - How blockers are handled.
-
 ## Notes for Reviewers
 
 The core implementation is intentionally small. The main logic lives in `lib/gemini.ts`, while the server boundary lives in `app/api/generate/route.ts`. The UI is kept simple so the generated interview questions and the working API call remain the focus of the assignment.
